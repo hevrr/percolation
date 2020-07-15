@@ -1,0 +1,27 @@
+Manual for Percolation
+
+Note: Please take a look at my UF_WriteUp!
+
+Percolation.java
+- Opens, checks if open, checks if full, checks if percolates
+
+UnionFind.java
+- Abstract class includes three UFs for ease of comparison
+- Can quickly change UF used, including:
+- QuickFind.java
+- QuickUnion.java
+- QuickUnionPC.java
+- WeightedQuickUnion.java
+- WeightedQuickUnionPC.java
+- PercolationRunner.java
+- PC: path compression to link sites to root
+
+PercolationRunner.java
+- Runs percolation simulation for a specified n-by-n grid for specified cycles
+- Reports statistics including time, average percolation probability, standard deviation, and confidence intervals of various cycles
+
+PercolationGraphicsRunner.java
+- Graphically demonstrates percolation and reports similar statistics
+- Capped out at 20 x 20 grid for computer to handle graphics
+
+* * * * *
